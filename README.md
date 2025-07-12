@@ -3,7 +3,6 @@
 ![Flask](https://img.shields.io/badge/Backend-Flask-blue)
 ![Bootstrap](https://img.shields.io/badge/Frontend-Bootstrap5-purple)
 ![Chart.js](https://img.shields.io/badge/Charts-Chart.js-orange)
-![Render](https://img.shields.io/badge/Deployed%20on-Render-success)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
@@ -27,10 +26,6 @@
 ## 📸 Screenshot
 
 > *(Replace this with a real screenshot or link)*
-
-## 🚀 Live Demo
-
-👉 [Click here to view the deployed app](https://election-predictor-1-xt8g.onrender.com)
 
 ## 📦 Tech Stack
 
