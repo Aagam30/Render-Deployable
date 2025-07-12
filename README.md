@@ -1,34 +1,52 @@
-# Election Predictor
+# 🗳️ Elite Election Predictor – UI Enhanced
 
-A simple Flask-based web app that predicts election outcomes using a trained machine‑learning model.
+![Flask](https://img.shields.io/badge/Backend-Flask-blue)
+![Bootstrap](https://img.shields.io/badge/Frontend-Bootstrap5-purple)
+![Chart.js](https://img.shields.io/badge/Charts-Chart.js-orange)
+![Render](https://img.shields.io/badge/Deployed%20on-Render-success)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## Local Development
+---
+
+**Elite Election Predictor** is a Flask-based machine learning web application that predicts voting behavior based on user input. This enhanced UI version is styled with Bootstrap, animated with AOS, and visualized using Chart.js — offering a clean and modern user experience.
+
+## ✨ Features
+
+- 🎨 **Responsive design** using Bootstrap 5  
+- 📊 **Interactive charts** with Chart.js  
+- ⚙️ Dummy model included (DecisionTreeClassifier + Scaler)  
+- 💡 Predicts “Yes” or “No” based on:
+  - Age
+  - Income
+  - Education
+  - Gender
+  - Region
+- 🎞️ AOS scroll animations  
+- 🚀 Fully deployable to Render.com
+
+## 📸 Screenshot
+
+> *(Replace this with a real screenshot or link)*
+
+## 🚀 Live Demo
+
+👉 [Click here to view the deployed app](https://election-predictor-1-xt8g.onrender.com)
+
+## 📦 Tech Stack
+
+| Tech            | Usage               |
+|-----------------|---------------------|
+| Python + Flask  | Backend & Routing   |
+| scikit-learn    | ML Model & Scaler   |
+| Bootstrap 5     | UI Components       |
+| Chart.js        | Data Visualization  |
+| AOS.js          | Scroll Animations   |
+| Render.com      | Hosting             |
+
+## 🔧 Installation & Run Locally
 
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+git clone https://github.com/YOUR_USERNAME/election-ui-enhanced.git
+cd election-ui-enhanced
 pip install -r requirements.txt
-export FLASK_APP=app.py
-flask run
-```
-
-## Deploying to Render
-
-1. Push this repository to GitHub.
-2. Log in to [Render](https://render.com) and create a new **Web Service** connected to your repo.
-3. Render will detect the `render.yaml` file and pre‑fill build & start commands.
-4. Click **Create Web Service** and wait for the deploy to finish.
-
-That's it—your app will be live on a Render URL.
-
-## File Overview
-
-| File/Dir        | Purpose                                   |
-|-----------------|-------------------------------------------|
-| `app.py`        | Flask application entry‑point             |
-| `election_model.pkl` | Serialized trained model              |
-| `scaler.pkl`    | `StandardScaler` fitted on training data  |
-| `templates/`    | HTML templates for the UI                 |
-| `requirements.txt` | Python dependencies                    |
-| `Procfile`      | Start command for production (Gunicorn)   |
-| `render.yaml`   | Render service configuration              |
+python app.py
