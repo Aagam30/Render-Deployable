@@ -12,10 +12,8 @@ Elite Election Predictor is a modern and interactive **machine learning web appl
 
 ## 🌐 Live Demo
 
-🔗 **Render Deployment:** [Visit App on Render](https://your-render-url.onrender.com)  
-🔗 **Replit Deployment:** [Run on Replit](https://replit.com/@yourusername/elite-election-ui)
-
-> ⚠️ Replace these links with your actual deployed URLs.
+🔗 **Render Deployment:** [Visit on Render](https://election-prediction-app.onrender.com)  
+🔗 **Replit Deployment:** [Run on Replit](https://35303ec4-d441-4013-abcc-6263b3f83365-00-3hca24q1b3h8b.sisko.replit.dev/)
 
 ---
 
@@ -31,15 +29,17 @@ Elite Election Predictor is a modern and interactive **machine learning web appl
   - Gender
   - Region
 - 🎞️ Smooth scroll-triggered animations using **AOS.js**
-- 🌍 **Deployable on both [Render](https://render.com)** and **[Replit](https://replit.com)** with ease
+- 🌍 **Deployable on both [Render](https://render.com)** and **[Replit](https://replit.com)**
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshot
 
-| Homepage | Prediction Page |
-|----------|------------------|
-| ![Home Screenshot](https://via.placeholder.com/400x250?text=Homepage+Screenshot) | ![Predict Screenshot](https://via.placeholder.com/400x250?text=Prediction+Screenshot) |
+| Homepage |
+|----------|
+| ![Home Screenshot](https://via.placeholder.com/800x400.png?text=Homepage+Screenshot) |
+
+> Replace the above image link with your actual screenshot upload link (or embed it directly if hosted)
 
 ---
 
