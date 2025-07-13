@@ -47,7 +47,7 @@ def predict():
             except Exception as e:
                 prediction = f"Error: {str(e)}"
 
-    return render_template("index.html", prediction=prediction, analytics=default_stats)
+    return render_template("index.html", result=prediction, analytics=default_stats)
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000, debug=False)
