@@ -37,9 +37,7 @@ Elite Election Predictor is a modern and interactive **machine learning web appl
 
 | Homepage |
 |----------|
-| ![Home Screenshot](https://via.placeholder.com/800x400.png?text=Homepage+Screenshot) |
-
-
+| ![Elite Election Predictor Screenshot](https://i.imgur.com/VaBqACu.png) |
 
 ---
 
